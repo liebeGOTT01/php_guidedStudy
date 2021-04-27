@@ -1,8 +1,8 @@
 <?php
-include_once('store.php');
-$users = $mystore->getUsers();
+    include_once('store.php');
+    $users = $mystore->getUsers();
 
-print_r($users)
+    print_r($users)
 ?>
 
 <!DOCTYPE html>
